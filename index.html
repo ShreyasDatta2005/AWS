@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Automated Deployment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cloud Automation Project</h1>
+            <p>Static Website Hosting on AWS S3 via GitHub Actions</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Project Overview</h2>
+            <p>This website is hosted on <strong>Amazon S3</strong> and is automatically deployed using <strong>GitHub Actions</strong>.</p>
+            <hr>
+            <h3>How it works:</h3>
+            <ul>
+                <li><strong>Step 1:</strong> Code is pushed to the GitHub repository.</li>
+                <li><strong>Step 2:</strong> GitHub Actions triggers a workflow on every push.</li>
+                <li><strong>Step 3:</strong> The AWS CLI syncs the repository files with the S3 bucket.</li>
+                <li><strong>Step 4:</strong> The live site is updated instantly!</li>
+            </ul>
+        </section>
+
+        <section class="status-box">
+            <p>Deployment Status: <span class="badge">Live & Automated</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Cloud Project | Built with AWS & Git</p>
+    </footer>
+</body>
+</html>
